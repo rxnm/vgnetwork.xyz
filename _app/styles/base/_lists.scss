@@ -1,0 +1,28 @@
+.l-default > .content {
+  ul,
+  ol {
+    margin: $small-spacing;
+    padding: $small-spacing;
+  }
+
+  ul > li {
+    list-style-type: disc;
+  }
+
+  ol > li {
+    list-style-type: decimal;
+  }
+}
+
+dl {
+  margin-bottom: $small-spacing;
+
+  dt {
+    font-weight: bold;
+    margin-top: $small-spacing;
+  }
+
+  dd {
+    margin: 0;
+  }
+}
