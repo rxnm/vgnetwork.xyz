@@ -2,6 +2,6 @@
 (function dynamicallyInsertEmailAddress() {
   $(document).ready(function() {
     var emailLink = $('#email');
-    emailLink.attr('href', 'mailto:robert.wise@outlook.com');
+    emailLink.attr('href', 'mailto:rpmoorey@gmail.com');
   });
 }());

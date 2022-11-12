@@ -183,7 +183,7 @@ gulp.task('serve', ['build'], function() {
   gulp.watch('_data/**.*+(yml|yaml|csv|json)', ['build:jekyll:watch']);
 
   // Watch Jekyll favicon.ico
-  gulp.watch('_assets/imgs/site_imgs/favicon.ico', ['build:jekyll:watch']);
+  gulp.watch('_assets/favicon.ico', ['build:jekyll:watch']);
 });
 
 // Updates Bower packages
