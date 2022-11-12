@@ -1,13 +1,10 @@
 # Site settings
 url: "https://vgnetwork.xyz/" # the base hostname & protocol for your site
-baseurl: ""                      # the subpath of your site, e.g. /news/
-permalink: :categories/:title
 timezone: China/Beijing
 
 title: Vanguard
 description: The finest of gaming communities
 email: rpmoorey@gmail.com
-disqus_shortname: 'vgn-2'
 
 google_analytics: UA-178119679-1
 
@@ -28,22 +25,3 @@ kramdown:
   toc_levels:     1..6
   smart_quotes:   lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-
-# Defaults (these are overridden if explicitly set in front matter)
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      author: "RyanM"
-      categories: news
-      layout: "post"
-  -
-    scope:
-      path: ""
-      type: "drafts"
-    values:
-      author: "RyanM"
-      categories: news
-      layout: "post"
