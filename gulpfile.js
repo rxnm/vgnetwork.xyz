@@ -179,14 +179,11 @@ gulp.task('serve', ['build'], function() {
   // Watch Jekyll html files
   gulp.watch(['**/*.html', '!_site/**/*.*'], ['build:jekyll:watch']);
 
-  // Watch Jekyll RSS feed XML file
-  gulp.watch('feed.xml', ['build:jekyll:watch']);
-
   // Watch Jekyll data files
   gulp.watch('_data/**.*+(yml|yaml|csv|json)', ['build:jekyll:watch']);
 
   // Watch Jekyll favicon.ico
-  gulp.watch('favicon.ico', ['build:jekyll:watch']);
+  gulp.watch('_assets/imgs/site_imgs/favicon.ico', ['build:jekyll:watch']);
 });
 
 // Updates Bower packages
