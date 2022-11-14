@@ -15,12 +15,6 @@
   <meta name="keywords" content="{{ page.tags | join:', ' }}">
   {% endif %}
 
-  <!-- Twitter Meta -->
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@RobAWise" />
-  <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}" />
-  <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
-
   <!-- Title -->
   {% if page.title %}
   <title>{{ page.title }}</title>
