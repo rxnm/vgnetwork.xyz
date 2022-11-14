@@ -5,7 +5,7 @@
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 ![Views](https://komarev.com/ghpvc/?username=rxnm&label=Views)
 
-The uncompiled [GitBook](https://www.gitbook.com/) source code for my website ([docs.vgnetwork.xyz](https://docs.vgnetwork.xyz/)).
+The uncompiled [VGNetwork]([https://jekyllrb.com/) source code for my website ([vgnetwork.xyz](https://vgnetwork.xyz/)).
 
 ## License
 
