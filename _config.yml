@@ -1,1 +1,49 @@
+# Your existing theme
 theme: jekyll-theme-midnight
+
+# Your site settings
+title: Vanguard
+description: Gaming Community
+url: "https://vgnetwork.uk"
+
+# Collections for documentation
+collections:
+  docs:
+    output: true
+    permalink: /docs/:name/
+
+# Default layouts for different content types
+defaults:
+  - scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "docs"  # We'll need to create this in your theme
+  
+  - scope:
+      path: "pages"
+    values:
+      layout: "default"  # Uses theme's default layout
+  
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Include these folders
+include:
+  - _docs
+  - pages
+
+# Exclude files
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Your plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
